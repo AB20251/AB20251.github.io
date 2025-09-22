@@ -11,7 +11,7 @@
       </tr>
      <tr>
         <th>Hobbies</th>
-        <td>Watching movies, Designing software ideas, and Driving.</td>
+        <td>Watching movies, designing software ideas, and driving.</td>
       </tr>
   </tbody>
 </table>

@@ -9,7 +9,8 @@
         color: #333;
         line-height: 1.5;
     }
-    .container1 {
+      /* Nav Bar Styles */
+    .container {
         width: auto;
         margin: auto;
         overflow: hidden;
@@ -21,7 +22,7 @@
         top: 0;
         z-index: 1000;
      }
-     .headercontainer {
+     header .container {
        display: flex;
         justify-content: space-between;
         align-items: center;
@@ -55,3 +56,39 @@
         background-color:#434345 ;
         border-radius: 5px;
     }
+    /* Nav Bar Styles */
+
+
+    /* Main Styles  */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+    /* Main Styles */
+
+    /* Section Styles / Article Styles */
+    
+    section {
+        margin-bottom: 40px;
+        padding: 32px;
+        background-color: white;
+        border: #24252a 1px solid;
+        border-radius: 10px;
+    }
+    section article {
+        background: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 20px;
+    }
+    h2 {
+    color: #444;
+    text-align: center;
+    margin-top: 0;
+}
+    section article h3 {
+    margin-top: 0;
+    color: #333;
+}
+    /* Section Styles / Article Styles */

@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
  }
+ html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 112px;
+ }
+
     body {
-        font-family: 'Times New Roman';
         background-color: #f4f4f4;
         color: #333;
+        font-family: 'Times New Roman', serif;
         line-height: 1.5;
     }
       /* Nav Bar Styles */
@@ -61,28 +66,37 @@
 
     /* Main Styles  */
 main {
-    width: 80%;
-    margin: 20px auto;
+    max-width: 2000px;
+    margin: 25px auto;
 }
     /* Main Styles */
 
     /* Section Styles / Article Styles */
     
     main section {
+        background-color: white;
+        border-radius: 10px;
         margin-bottom: 40px;
         padding: 20px 25px;
-        background-color: white;
-        border: #24252a 1px solid;
-        border-radius: 10px;
+        scroll-margin-top: 120px;
+    }
+    main section h3 {
+        color: #555;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 25px;
     }
      main section h2{
         color: #444;
         text-align: center;
         margin-top: 0;
         margin-bottom: 10px;
+        font-size: 30px;
     }
     main section p {
         margin-bottom: 10px;
+        font-size: 20px;
     }
     .use-case {
         background: white;

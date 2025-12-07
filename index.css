@@ -5,7 +5,7 @@
  }
  html {
     scroll-behavior: smooth;
-    scroll-padding-top: 112px;
+    scroll-padding-top: 1px;
  }
 
     body {
@@ -104,19 +104,16 @@ main {
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 20px;
+         margin-top: 0;
+        margin-bottom:10px;
+        color: #333;
+        font-size: 16px;
     }
-
-    .use-case {
-    margin-top: 0;
-    margin-bottom:10px;
-    color: #333;
-    font-size: 16px;
-}
     /* Section Styles / Article Styles */
 
     /* Introduction Styles */
   .intro-container {
-    width: 90%;;
+    width: 100%;
   }
   .section-i {
     display: flex;

@@ -94,24 +94,11 @@ main {
         margin-bottom: 10px;
         font-size: 30px;
     }
-    .topic {
-        margin-left: 150px;
-    }
     main section p, .bullet {
         margin-bottom: 10px;
         font-size: 20px;
     }
-    .use-case {
-        background: white;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin: 20px;
-         margin-top: 0;
-        margin-bottom:10px;
-        color: #333;
-        font-size: 16px;
-    }
+  
     /* Section Styles / Article Styles */
 
     /* Introduction Styles */
@@ -169,6 +156,31 @@ main {
         border-top-right-radius: 10px;
    }
 
-     /* Application Styles */
+     /* Application use -cases Styles */
+       .usecase-div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  .use-case {
+        background: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 20px;
+         margin-top: 0;
+        margin-bottom:10px;
+        color: #333;
+        font-size: 16px;
+        flex: 1;
+    }
+    .use-case h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+  
+     /* Application use -cases Styles */
+
+     
 
 

@@ -157,12 +157,12 @@ main {
    }
 
      /* Application use-case Styles */
-       .usecase-div, .critical-div, .recommendations-div {
+       .usecase-div, .critical-div, .recommendations-div, .ethicalanaly-div {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-  .use-case, .critical-case, .recommendations-case {
+  .use-case, .critical-case, .recommendations-case, .ethicalanaly-case {
         background: white;
         padding: 20px;
         border: 1px solid #ccc;
@@ -174,11 +174,11 @@ main {
         font-size: 16px;
         flex: 1;
     }
-    .use-case h3, .critical-case h3 , .recommendations-case h3 {
+    .use-case h3, .critical-case h3 , .recommendations-case h3, .ethicalanaly-case h3 {
         margin-top: 0;
         text-align: center;
     }
-    .recommendations-case li, .critical-case li, .use-case li {
+    .recommendations-case li, .critical-case li, .use-case li, .ethicalanaly-case li {
         margin-left:10px; 
         font-size: 20px;  
     }
@@ -196,6 +196,16 @@ main {
         background-color: #434345;
     }
     /* Application use-case Styles */
+
+    /* Ethical Analysis Styles */
+    .ethical-diagram {
+        display: block;
+        margin: 20px auto;
+        max-width: 750px;
+        height: auto;
+        border-radius: 10px;
+    }
+     /* Ethical Analysis Styles */
      
 
 

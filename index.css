@@ -151,18 +151,18 @@ main {
    }
    .user img {
         width: 100%;
-        height: auto;
+        height: 265px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
    }
 
-     /* Application use -cases Styles */
-       .usecase-div {
+     /* Application use-case Styles */
+       .usecase-div, .critical-div, .recommendations-div {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-  .use-case {
+  .use-case, .critical-case, .recommendations-case {
         background: white;
         padding: 20px;
         border: 1px solid #ccc;
@@ -174,13 +174,28 @@ main {
         font-size: 16px;
         flex: 1;
     }
-    .use-case h3 {
+    .use-case h3, .critical-case h3 , .recommendations-case h3 {
         margin-top: 0;
         text-align: center;
     }
-  
-     /* Application use -cases Styles */
-
+    .recommendations-case li, .critical-case li, .use-case li {
+        margin-left:10px; 
+        font-size: 20px;  
+    }
+    .more-info {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #24252a;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .more-info:hover {
+        background-color: #434345;
+    }
+    /* Application use-case Styles */
      
 
 

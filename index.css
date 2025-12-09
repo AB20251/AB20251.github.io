@@ -155,6 +155,10 @@ main {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
    }
+   .discussionP
+    {
+        font-size: 28px;
+    }
 
      /* Application use-case Styles */
        .usecase-div, .critical-div, .recommendations-div, .ethics-div {

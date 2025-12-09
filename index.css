@@ -205,6 +205,14 @@ main {
         height: auto;
         border-radius: 10px;
     }
+    .ethics-case img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 10px;
+        display: block;
+    }
+
      /* Ethical Analysis Styles */
      
 
